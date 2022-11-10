@@ -170,5 +170,8 @@ footer {
 		width: 100%;
 		flex-direction:column;
 	}
+	aside .ad figure {
+		width: 100px;
 
+	}
 }
