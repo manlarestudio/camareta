@@ -8,7 +8,7 @@
 
 body {
 	font-family: 'Verdana', sans-serif;
-	background: #000 url('imagenes/fondo.jpg');
+	background: #000 url('../images/fondo.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 }
