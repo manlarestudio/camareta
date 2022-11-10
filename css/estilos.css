@@ -119,16 +119,17 @@ aside .ad figure img {
 footer {
 	margin-top: 20px;
 	margin-bottom: 20px;	
-	background: rgba(8, 8, 8, 0.343);
+	background: rgba(255, 255, 255, 0.343);
 	padding: 20px;
 	margin-bottom: 20px;
 	width: 100%;
-	color: #fff;
+	color: rgb(4, 4, 4);
 	display: flex;
 	flex-direction:column;
 	flex-wrap:nowrap;
 	justify-content:space-between;
 	text-align: center;
+	font-weight: 600;
 }
 
 
