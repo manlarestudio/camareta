@@ -24,6 +24,7 @@ body {
 
 header {
 	width: 100%;
+	padding-top: 10px;
 	padding-bottom: 10px;
     margin-top: 10px;
 	margin-bottom: 10px;
@@ -35,20 +36,19 @@ header {
 	background: rgba(8, 8, 8, 0.343);
 }
 header .logo {
-	/* background: #fff; */
-	/* width: 500px; */
 	color:rgb(255, 255, 255);
-	padding-left: 10px;
+	display: flex;
+	flex-direction:row;
+	gap: 10px;
 }
-header .logo h1 figure {
+header .logo figure {
 	width: 70px;
-	display: inline-block;
-	margin-top: 10px;
-	padding-right: 10px;
-	/* padding-top: 10px; */
 }
-header .logo h1 figure img {
+header .logo figure img {
 	width: 100%;
+}
+header .logo .titulo {
+	padding-top: 15px;
 }
 
 .main {
@@ -136,27 +136,11 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-	header {
-		
-		padding-bottom: 20px; 
-	}
 
-	header .menu {
-		width: 100%;
-		background: rgba(255,255,255,.2);
-		text-align: center;
-		padding: 20px;
-	}
-
-	header .logo {
-		margin-bottom: 20px;
-	}
-
-	header .menu a {
-		margin:0 20px; 
-	}
+	
 	aside .ad {
 		padding: 5px 0;
+
 	}
 
 	aside .ad figure {
@@ -167,8 +151,12 @@ footer {
 
 @media screen and (max-width: 400px) {
 	aside {
-		width: 30%;
+		width: 100%;
 		/* flex-wrap:nowrap; */
+	}
+	aside .ad {
+	
+		width: 100%;
 	}
 	aside .ad figure {
 		width: 100px;
