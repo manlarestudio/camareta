@@ -54,8 +54,8 @@ header .logo figure img {
 }
 header .logo .titulo {
 	padding-top: 5px;
-	font-family: 'AR CHRISTY', sans-serif;
-	font-size: 1.5em;
+	/* font-family: 'AR CHRISTY', sans-serif;
+	font-size: 1.5em; */
 	color:rgb(255, 255, 255);
 }
 
@@ -64,10 +64,10 @@ header .logo .titulo {
 	padding: 20px;
 	width: 70%;
 }
-.main h2 {
+/* .main h2 {
 	font-family: 'AR CHRISTY', sans-serif;
 	font-size: 2em!important;
-}
+} */
 
 .main .thumb {
 	margin-bottom: 20px;
