@@ -167,7 +167,8 @@ footer {
 
 @media screen and (max-width: 400px) {
 	aside {
-		flex-wrap:nowrap;
+		width: 30%;
+		/* flex-wrap:nowrap; */
 	}
 	aside .ad figure {
 		width: 100px;
