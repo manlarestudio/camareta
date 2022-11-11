@@ -104,11 +104,11 @@ footer {
 	flex-wrap:wrap;
 	justify-content:center;
 	text-align: center;
-	font-weight: 600;
 	gap: 20px;
 }
 	footer .autor {
 		padding-top: 8px;
+		font-weight: 600;
 	}
 	@media screen and (min-width: 801px) {
 		.main {
