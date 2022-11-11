@@ -1,8 +1,3 @@
-/* @font-face {
-    font-family: 'AR CHRISTY';
-    src: url('fonts/ARCHRISTY.ttf');
-} */
-
 * {
 	padding: 0;
 	margin: 0;
@@ -10,14 +5,12 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-
 body {
 	font-family: 'Verdana', sans-serif;
-	background: #000 url('../images/fondo1.jpg');
+	background: #FEDB5D url('../images/fondo1.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 }
-
 .contenedor {
 	margin: auto;
 	width: 90%;
@@ -26,7 +19,6 @@ body {
 	flex-direction:row;
 	flex-wrap:wrap;
 }
-
 header {
 	width: 100%;
 	padding-top: 10px;
@@ -86,7 +78,7 @@ aside {
 		font-size: 30px;
 		text-align: center;
 		color: #fff;
-		padding: 10px 0;
+		padding: 10px 10px;
 		/*margin: 20px 0;*/
 		background: #FEDB5D;
 		width: 100%;
@@ -124,19 +116,14 @@ footer {
 		}
 		aside {
 			width: 30%;
-			/* flex-wrap:nowrap; */
+		
 		}
 				aside .ad figure {
-					width: 250px;
+					width: 100%;
 				}	
-
 	}
 
 @media screen and (max-width: 800px) {
-	.main {
-		width: 100%;
-	}
-
 	aside {
 		flex-direction:row;
 	}
@@ -145,15 +132,4 @@ footer {
 		}
 }
 
-@media screen and (max-width: 600px) {
-	
-	aside .ad {
-		padding: 5px 0;
-
-	}
-		aside .ad figure {
-			width: 150px;
-
-		}
-}
 
