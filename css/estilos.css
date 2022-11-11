@@ -40,60 +40,59 @@ header {
 		color:rgb(255, 255, 255);
 	}
    .caja {
-
 		display: flex;
 		flex-direction:row;
 		flex-wrap:wrap;
    }
-	main {
-		background: #fff;
-		padding: 20px;
-		width: 100%;
-	}
-	main .thumb {
-			margin-bottom: 20px;
-		}
-		main .thumb img {
-			vertical-align: top;
+		main {
+			background: #fff;
+			padding: 20px;
 			width: 100%;
 		}
-		main  h2 {
-			margin-bottom: 20px;
-			font-weight: normal;
-			font-size: 32px;
+		main .thumb {
+				margin-bottom: 20px;
+			}
+			main .thumb img {
+				vertical-align: top;
+				width: 100%;
+			}
+			main  h2 {
+				margin-bottom: 20px;
+				font-weight: normal;
+				font-size: 32px;
+			}
+			main  p {
+				margin-bottom: 20px;
+				font-size: 14px;
+				line-height: 27px;
+			}	
+		aside {
+			width: 100%;
+			background: #FF5653;
+			padding: 20px;
+			display: flex;
+			flex-direction:column;
+			flex-wrap:wrap;
+			justify-content:flex-start;
+			gap: 20px;
 		}
-		main  p {
-			margin-bottom: 20px;
-			font-size: 14px;
-			line-height: 27px;
-		}	
-aside {
-	width: 100%;
-	background: #FF5653;
-	padding: 20px;
-	display: flex;
-	flex-direction:column;
-	flex-wrap:wrap;
-	justify-content:flex-start;
-	gap: 20px;
-}
-	aside .ad {
-		font-size: 30px;
-		text-align: center;
-		color: #fff;
-		padding: 10px 10px;
-		/*margin: 20px 0;*/
-		background: #FEDB5D;
-		width: 100%;
-	}
-	aside .ad figure {
-		width: 100%;
-		display: block;
-		margin: auto;
-	}
-	aside .ad figure img {
-		width: 100%;
-	}
+			aside .ad {
+				font-size: 30px;
+				text-align: center;
+				color: rgb(10, 10, 10);
+				padding: 10px 10px;
+				/*margin: 20px 0;*/
+				background: #FEDB5D;
+				width: 100%;
+			}
+				aside .ad figure {
+					width: 100%;
+					display: block;
+					margin: auto;
+				}
+					aside .ad figure img {
+						width: 100%;
+					}
 footer {
 	margin-top: 20px;
 	margin-bottom: 20px;	
@@ -114,28 +113,28 @@ footer {
 		font-weight: 600;
 	}
 @media screen and (min-width: 801px) {
-		main {
-			width: 70%;
+	.caja main {
+		width: 70%;
 		}
-		aside {
-			width: 30%;
+	.caja aside {
+		width: 30%;
 		}
 	}
 @media screen and (max-width: 800px) {
-	aside {
+	.caja aside {
 		flex-direction:row;
 		justify-content:space-between;
 	}
-		aside .ad {
+		.caja aside .ad {
 			width: 45%;
 		}
 }
 @media screen and (max-width: 480px) {
-	aside {
+	.caja aside {
 		flex-direction:column;
 		justify-content:center;
 	}
-		aside .ad {
+		.caja aside .ad {
 			width: 100%;
 		}
 }
