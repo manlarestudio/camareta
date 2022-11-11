@@ -121,7 +121,6 @@ footer {
 			width: 30%;
 		}
 	}
-
 @media screen and (max-width: 800px) {
 	aside {
 		flex-direction:row;
@@ -140,4 +139,3 @@ footer {
 			width: 100%;
 		}
 }
-
