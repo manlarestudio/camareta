@@ -93,25 +93,25 @@ body {
 					aside .ad figure img {
 						width: 100%;
 					}
-footer {
-	margin-top: 20px;
-	margin-bottom: 20px;	
-	background: rgba(255, 255, 255, 0.343);
-	padding: 20px;
-	margin-bottom: 20px;
-	width: 100%;
-	color: rgb(4, 4, 4);
-	display: flex;
-	flex-direction:row;
-	flex-wrap:wrap;
-	justify-content:center;
-	text-align: center;
-	gap: 20px;
-}
-	footer .autor {
-		padding-top: 8px;
-		font-weight: 600;
+	footer {
+		margin-top: 20px;
+		margin-bottom: 20px;	
+		background: rgba(255, 255, 255, 0.343);
+		padding: 20px;
+		margin-bottom: 20px;
+		width: 100%;
+		color: rgb(4, 4, 4);
+		display: flex;
+		flex-direction:row;
+		flex-wrap:wrap;
+		justify-content:center;
+		text-align: center;
+		gap: 20px;
 	}
+		footer .autor {
+			padding-top: 8px;
+			font-weight: 600;
+		}
 @media screen and (min-width: 801px) {
 	.caja main {
 		width: 70%;
