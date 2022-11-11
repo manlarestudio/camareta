@@ -16,28 +16,28 @@ body {
 	width: 90%;
 	max-width: 1000px;
 }
-header {
-	width: 100%;
-	padding-top: 10px;
-	padding-bottom: 10px;
-    margin-top: 10px;
-	margin-bottom: 10px;
-	background: rgba(8, 8, 8, 0.343);	
-	display: flex;
-	flex-direction:row;
-	flex-wrap:wrap;
-	justify-content:center;
-	align-items:center;
-	gap: 10px;
-}
-	header figure {
-		width: 70px;
-	}
-	header figure img {
+	header {
 		width: 100%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		background: rgba(8, 8, 8, 0.343);	
+		display: flex;
+		flex-direction:row;
+		flex-wrap:wrap;
+		justify-content:center;
+		align-items:center;
+		gap: 10px;
 	}
-	header .titulo {
-		color:rgb(255, 255, 255);
+		header figure {
+			width: 70px;
+		}
+		header figure img {
+			width: 100%;
+		}
+		header .titulo {
+			color:rgb(255, 255, 255);
 	}
    .caja {
 		display: flex;
