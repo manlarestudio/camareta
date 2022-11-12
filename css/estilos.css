@@ -5,12 +5,47 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-body {
-	font-family: 'Verdana', sans-serif;
+.fondo__bod {
 	background: #FEDB5D url('../images/fondo.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 }
+.fondo__header {
+	background: rgba(8, 8, 8, 0.343);	
+}
+.fondo__main {
+	background:#FEDB5D;
+}
+.fondo__aside {
+	background: #FF5653;
+}
+.fondo__wit {
+	background:#FEDB5D;
+}
+.fondo__footer{
+	background: rgba(255, 255, 255, 0.343);
+}
+.color1{
+	color:rgb(255, 255, 255);	
+}
+.color2{
+	color: rgb(10, 10, 10);
+}
+.modelo{
+	display: flex;
+	flex-wrap:wrap;
+}
+.tipo1{
+	flex-direction:row;	
+}
+.tipo2{
+	flex-direction:column;	
+}
+
+body {
+	font-family: 'Verdana', sans-serif;
+}
+
 .contenedor {
 	margin: auto;
 	width: 90%;
@@ -22,10 +57,6 @@ body {
 		padding-bottom: 10px;
 		margin-top: 10px;
 		margin-bottom: 10px;
-		background: rgba(8, 8, 8, 0.343);	
-		display: flex;
-		flex-direction:row;
-		flex-wrap:wrap;
 		justify-content:center;
 		align-items:center;
 		gap: 10px;
@@ -36,16 +67,9 @@ body {
 		header figure img {
 			width: 100%;
 		}
-		header .titulo {
-			color:rgb(255, 255, 255);
-	}
-   .caja {
-		display: flex;
-		flex-direction:row;
-		flex-wrap:wrap;
-   }
+
 		main {
-			background: #fff;
+			/* background: #FEDB5D; */
 			padding: 20px;
 			width: 100%;
 		}
@@ -68,42 +92,30 @@ body {
 			}	
 		aside {
 			width: 100%;
-			background: #FF5653;
 			padding: 20px;
-			display: flex;
-			flex-direction:column;
-			flex-wrap:wrap;
 			justify-content:flex-start;
 			gap: 20px;
 		}
-			aside .ad {
+			aside .wit {
 				font-size: 30px;
 				text-align: center;
-				color: rgb(10, 10, 10);
 				padding: 10px 10px;
-				/*margin: 20px 0;*/
-				background: #FEDB5D;
 				width: 100%;
 			}
-				aside .ad figure {
+				aside .wit figure {
 					width: 100%;
 					display: block;
 					margin: auto;
 				}
-					aside .ad figure img {
+					aside .wit figure img {
 						width: 100%;
 					}
 	footer {
 		margin-top: 20px;
 		margin-bottom: 20px;	
-		background: rgba(255, 255, 255, 0.343);
 		padding: 20px;
 		margin-bottom: 20px;
 		width: 100%;
-		color: rgb(4, 4, 4);
-		display: flex;
-		flex-direction:row;
-		flex-wrap:wrap;
 		justify-content:center;
 		text-align: center;
 		gap: 20px;
@@ -125,7 +137,7 @@ body {
 		flex-direction:row;
 		justify-content:space-between;
 	}
-		.caja aside .ad {
+		.caja aside .wit {
 			width: 45%;
 		}
 }
@@ -134,7 +146,7 @@ body {
 		flex-direction:column;
 		justify-content:center;
 	}
-		.caja aside .ad {
+		.caja aside .wit {
 			width: 100%;
 		}
 }
