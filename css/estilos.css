@@ -125,28 +125,28 @@ body {
 			font-weight: 600;
 		}
 @media screen and (min-width: 801px) {
-	.caja main {
+	#caja main {
 		width: 70%;
 		}
-	.caja aside {
+	#caja aside {
 		width: 30%;
 		}
 	}
 @media screen and (max-width: 800px) {
-	.caja aside {
+	#caja aside {
 		flex-direction:row;
 		justify-content:space-between;
 	}
-		.caja aside .wit {
+		#caja aside .wit {
 			width: 45%;
 		}
 }
 @media screen and (max-width: 480px) {
-	.caja aside {
+	#caja aside {
 		flex-direction:column;
 		justify-content:center;
 	}
-		.caja aside .wit {
+		#caja aside .wit {
 			width: 100%;
 		}
 }
