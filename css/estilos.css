@@ -5,30 +5,24 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-.fondo__bod {
-	background: #FEDB5D url('../images/fondo.jpg');
-	background-size: cover;
-	background-attachment: fixed;
-}
-.fondo__header {
+
+.color-fondo1 {
 	background: rgba(8, 8, 8, 0.343);	
 }
-.fondo__main {
+.color-fondo2 {
 	background:#FEDB5D;
 }
-.fondo__aside {
+.color-fondo3 {
 	background: #FF5653;
 }
-.fondo__wit {
-	background:#FEDB5D;
-}
-.fondo__footer{
+
+.color-fondo4{
 	background: rgba(255, 255, 255, 0.343);
 }
-.color1{
+.color-texto1{
 	color:rgb(255, 255, 255);	
 }
-.color2{
+.color-texto2{
 	color: rgb(10, 10, 10);
 }
 .modelo{
@@ -44,6 +38,9 @@
 
 body {
 	font-family: 'Verdana', sans-serif;
+	background: #FEDB5D url('../images/fondo.jpg');
+	background-size: cover;
+	background-attachment: fixed
 }
 
 .contenedor {
