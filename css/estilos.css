@@ -87,24 +87,24 @@ body {
 				font-size: 14px;
 				line-height: 27px;
 			}	
-		aside {
+		section {
 			width: 100%;
 			padding: 20px;
 			justify-content:flex-start;
 			gap: 20px;
 		}
-			aside .wit {
+			section .wit {
 				font-size: 30px;
 				text-align: center;
 				padding: 10px 10px;
 				width: 100%;
 			}
-				aside .wit figure {
+				section .wit figure {
 					width: 100%;
 					display: block;
 					margin: auto;
 				}
-					aside .wit figure img {
+					section .wit figure img {
 						width: 100%;
 					}
 	footer {
@@ -125,25 +125,25 @@ body {
 	#caja main {
 		width: 70%;
 		}
-	#caja aside {
+	#caja section {
 		width: 30%;
 		}
 	}
 @media screen and (max-width: 800px) {
-	#caja aside {
+	#caja section {
 		flex-direction:row;
 		justify-content:space-between;
 	}
-		#caja aside .wit {
+		#caja section .wit {
 			width: 45%;
 		}
 }
 @media screen and (max-width: 480px) {
-	#caja aside {
+	#caja section {
 		flex-direction:column;
 		justify-content:center;
 	}
-		#caja aside .wit {
+		#caja section .wit {
 			width: 100%;
 		}
 }
